@@ -1,0 +1,23 @@
+.Back{
+    background-color: orangered;
+    padding: 10px 15px;
+    color: white;
+    font-size: 1.3rem;
+    outline: none;
+}
+
+.Back:hover{
+    background-color: brown;
+}
+
+.Continue{
+    background-color: orangered;
+    padding: 10px 15px;
+    color: white;
+    font-size: 1.3rem;
+    outline: none;
+}
+
+.Continue:hover{
+    background-color: brown;
+}
