@@ -18,7 +18,6 @@ class BurgerBuilder extends Component {
     }
 
     componentDidMount () {
-        console.log(this.props);  
         this.props.onInitIngredients();
     }
 
@@ -103,7 +102,6 @@ const mapStateToProps = state => {
         ings: state.burgerBuilder.ingredients,
         price: state.burgerBuilder.totalPrice,
         error: state.burgerBuilder.error
-
     };
 }
 

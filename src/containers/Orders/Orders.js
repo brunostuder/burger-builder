@@ -7,13 +7,9 @@ import { connect } from 'react-redux';
 import Spinner from '../../components/UI/Spinner/Spinner';
 
 class Orders extends Component {
-    state = {
-        orders: [],
-        loading: true
+    componentDidMount() {
+        this.props.onFetchOrders();
     }
-componentDidMount() {
-    this.props.onFetchOrders();
-}
 
     render() {
         let orders = <Spinner />;
